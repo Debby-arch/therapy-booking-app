@@ -1,4 +1,4 @@
-// ignore_for_file: use_super_parameters
+// ignore_for_file: use_super_parameters, prefer_const_constructors
 
 import 'package:doctor_appointment_app/components/appointment_card.dart';
 import 'package:doctor_appointment_app/components/doctor_card.dart';
@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
                               List<Widget>.generate(medCat.length, (index) {
                             return Card(
                               margin: const EdgeInsets.only(right: 20),
-                              color: Config.primaryColor,
+                              color: Color.fromARGB(255, 203, 130, 218),
                               child: Padding(
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 15, vertical: 10),
@@ -147,7 +147,7 @@ class _HomePageState extends State<HomePage> {
                       doctor.isNotEmpty
                           ? AppointmentCard(
                               doctor: doctor,
-                              color: Config.primaryColor,
+                              color: Color.fromARGB(255, 203, 130, 218),
                             )
                           : Container(
                               width: double.infinity,

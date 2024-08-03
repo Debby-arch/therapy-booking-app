@@ -1,4 +1,4 @@
-// ignore_for_file: use_super_parameters
+// ignore_for_file: use_super_parameters, prefer_const_constructors
 
 import 'package:doctor_appointment_app/components/button.dart';
 import 'package:doctor_appointment_app/components/custom_appbar.dart';
@@ -107,7 +107,7 @@ class _BookingPageState extends State<BookingPage> {
                             ),
                             borderRadius: BorderRadius.circular(15),
                             color: _currentIndex == index
-                                ? Config.primaryColor
+                                ? Color.fromARGB(255, 203, 130, 218)
                                 : null,
                           ),
                           alignment: Alignment.center,
@@ -169,7 +169,7 @@ class _BookingPageState extends State<BookingPage> {
       rowHeight: 48,
       calendarStyle: const CalendarStyle(
         todayDecoration:
-            BoxDecoration(color: Config.primaryColor, shape: BoxShape.circle),
+            BoxDecoration(color: Color.fromARGB(255, 203, 130, 218), shape: BoxShape.circle),
       ),
       availableCalendarFormats: const {
         CalendarFormat.month: 'Month',

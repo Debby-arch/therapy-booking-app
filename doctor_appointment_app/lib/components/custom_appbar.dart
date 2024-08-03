@@ -1,4 +1,4 @@
-// ignore_for_file: use_super_parameters, unnecessary_null_in_if_null_operators
+// ignore_for_file: use_super_parameters, unnecessary_null_in_if_null_operators, unused_import, prefer_const_constructors
 
 import 'package:doctor_appointment_app/utils/config.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +39,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
               margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                color: Config.primaryColor,
+                color: Color.fromARGB(255, 203, 130, 218),
               ),
               child: IconButton(
                 onPressed: () {

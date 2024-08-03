@@ -1,4 +1,4 @@
-// ignore_for_file: use_super_parameters, sized_box_for_whitespace
+// ignore_for_file: use_super_parameters, sized_box_for_whitespace, prefer_const_constructors
 
 import 'package:doctor_appointment_app/components/button.dart';
 import 'package:doctor_appointment_app/models/auth_model.dart';
@@ -255,7 +255,7 @@ class InfoCard extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
-          color: Config.primaryColor,
+          color: Color.fromARGB(255, 203, 130, 218),
         ),
         padding: const EdgeInsets.symmetric(
           vertical: 15,

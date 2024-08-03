@@ -1,4 +1,4 @@
-// ignore_for_file: use_super_parameters
+// ignore_for_file: use_super_parameters, unused_import, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 
@@ -24,7 +24,7 @@ class Button extends StatelessWidget {
       width: width,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          backgroundColor: Config.primaryColor,
+          backgroundColor: Color.fromARGB(255, 203, 130, 218),
           foregroundColor: Colors.white,
         ),
         onPressed: disable ? null : onPressed,

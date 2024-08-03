@@ -23,7 +23,7 @@ class _ProfilePageState extends State<ProfilePage> {
           flex: 4,
           child: Container(
             width: double.infinity,
-            color: Config.primaryColor,
+            color: Color.fromARGB(255, 203, 130, 218),
             child: Column(
               children: const <Widget>[
                 SizedBox(
@@ -98,7 +98,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               child: const Text(
                                 "Profile",
                                 style: TextStyle(
-                                  color: Config.primaryColor,
+                                  color: Color.fromARGB(255, 203, 130, 218),
                                   fontSize: 15,
                                 ),
                               ),
@@ -122,7 +122,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               child: const Text(
                                 "History",
                                 style: TextStyle(
-                                  color: Config.primaryColor,
+                                  color: Color.fromARGB(255, 203, 130, 218),
                                   fontSize: 15,
                                 ),
                               ),
@@ -167,7 +167,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               child: const Text(
                                 "Logout",
                                 style: TextStyle(
-                                  color: Config.primaryColor,
+                                  color: Color.fromARGB(255, 203, 130, 218),
                                   fontSize: 15,
                                 ),
                               ),

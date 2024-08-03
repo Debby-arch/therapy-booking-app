@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:doctor_appointment_app/main_layout.dart';
 import 'package:doctor_appointment_app/models/auth_model.dart';
 import 'package:doctor_appointment_app/screens/auth_page.dart';
@@ -29,17 +31,17 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           //pre-define input decoration
           inputDecorationTheme: const InputDecorationTheme(
-            focusColor: Config.primaryColor,
+            focusColor: Color.fromARGB(255, 203, 130, 218),
             border: Config.outlinedBorder,
             focusedBorder: Config.focusBorder,
             errorBorder: Config.errorBorder,
             enabledBorder: Config.outlinedBorder,
-            floatingLabelStyle: TextStyle(color: Config.primaryColor),
+            floatingLabelStyle: TextStyle(color: Color.fromARGB(255, 203, 130, 218)),
             prefixIconColor: Colors.black38,
           ),
           scaffoldBackgroundColor: Colors.white,
           bottomNavigationBarTheme: BottomNavigationBarThemeData(
-            backgroundColor: Config.primaryColor,
+            backgroundColor: Color.fromARGB(255, 203, 130, 218),
             selectedItemColor: Colors.white,
             showSelectedLabels: true,
             showUnselectedLabels: false,
