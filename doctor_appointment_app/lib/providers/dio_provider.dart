@@ -22,7 +22,7 @@ class DioProvider {
     }
   }
 
-  //get user data
+  //get users data
   Future<dynamic> getUser(String token) async {
     try {
       var user = await Dio().get('http://127.0.0.1:8000/api/user',
