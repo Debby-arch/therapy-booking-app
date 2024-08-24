@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:doctor_appointment_app/main_layout.dart';
 import 'package:doctor_appointment_app/models/auth_model.dart';
